@@ -73,6 +73,11 @@
     margin-top: 64px;
 }
 
+.container-wrap {
+    display: flex;
+    gap: 16px;
+}
+
 .sort-select {
     width: 100px;
     height: 44px;
@@ -84,6 +89,22 @@
     font-weight: 400;
     text-align: center;
     cursor: pointer;
+}
+
+.write-button-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.write-button {
+    height: 44px;
+    padding: 10px 16px;
+    color: white;
+    background-color: var(--main);
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .search-container {
@@ -158,7 +179,8 @@
     margin-top: 32px;
 }
 
-.page-button, .page-number {
+.page-button,
+.page-number {
     display: inline-block;
     min-width: 30px;
     height: 30px;
